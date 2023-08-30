@@ -1,0 +1,39 @@
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    left:0px;
+    top:68px;
+    bottom:0;
+    width: 80px;
+    z-index: 3;
+
+    
+    
+
+}
+
+.side-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    cursor: pointer;
+    height: 70px;
+
+
+
+}
+.side-button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.side-button-pic{
+    height: 30px;
+}
+
+.side-button-text{
+    font-size: 10px;
+}
